@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/cnj_improbidade-mcp",
+  "title": "Conselho Nacional de Justiça: Improbidade Administrativa e Inelegibilidade",
+  "description": "Conselho Nacional de Justiça: Improbidade Administrativa e Inelegibilidade, official-source lookup. ",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/cnj_improbidade-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_cnj_improbidade"
+    }
+  ]
+}
